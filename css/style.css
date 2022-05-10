@@ -429,7 +429,7 @@ main {
     border-radius: 20px;
     box-sizing: border-box;
     padding: 9px 27px 7px 27px;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .contact:hover {
