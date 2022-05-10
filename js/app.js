@@ -5,32 +5,32 @@ app.config(function($routeProvider){
     .when("https://forigo.github.io/", {
         templateUrl: "/templates/home.html"
     })
-    .when("https://forigo.github.io/sobre", {
-        templateUrl: "https://forigo.github.io/templates/sobre.html"
+    .when("sobre", {
+        templateUrl: "templates/sobre.html"
     })
-    .when("https://forigo.github.io/projetos", {
-        templateUrl: "https://forigo.github.io/templates/projetos.html"
+    .when("projetos", {
+        templateUrl: "templates/projetos.html"
     })
-    .when("https://forigo.github.io/gustavolimaadvocacia", {
-        templateUrl: "https://forigo.github.io/templates/projetos/gustavolimaadvocacia.html"
+    .when("gustavolimaadvocacia", {
+        templateUrl: "templates/projetos/gustavolimaadvocacia.html"
     })
-    .when("https://forigo.github.io/sgnirts", {
-        templateUrl: "https://forigo.github.io/templates/projetos/sgnirts.html"
+    .when("sgnirts", {
+        templateUrl: "templates/projetos/sgnirts.html"
     })
-    .when("https://forigo.github.io/rocketseat", {
-        templateUrl: "https://forigo.github.io/templates/projetos/rocketseat.html"
+    .when("rocketseat", {
+        templateUrl: "templates/projetos/rocketseat.html"
     })
-    .when("https://forigo.github.io/certificados", {
-        templateUrl: "https://forigo.github.io/templates/certificados.html"
+    .when("certificados", {
+        templateUrl: "templates/certificados.html"
     })
-    .when("https://forigo.github.io/contato", {
-        templateUrl: "https://forigo.github.io/templates/contato.html"
+    .when("contato", {
+        templateUrl: "templates/contato.html"
     })
-    .when("https://forigo.github.io/obrigado", {
-        templateUrl: "https://forigo.github.io/templates/obrigado.html"
+    .when("obrigado", {
+        templateUrl: "templates/obrigado.html"
     })
-    .when("https://forigo.github.io/404", {
-        templateUrl: "https://forigo.github.io/templates/404.html"
+    .when("404", {
+        templateUrl: "templates/404.html"
     })
 
     .otherwise({redirectTo : '404'});
