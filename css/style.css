@@ -1672,6 +1672,7 @@ fieldset {
 
     .main-text h1 {
         text-align: center;
+        margin: 0 auto;
     }
 
     .main-text p {
@@ -2047,6 +2048,7 @@ fieldset {
         
     .main-text h1 {
         text-align: center;
+        margin: 0 auto;
     }
         
     .main-text p {
