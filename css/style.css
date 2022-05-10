@@ -780,7 +780,6 @@ main {
 
 .project-box:hover {
     border: 1px solid var(--project-box-hover-border);
-    cursor: pointer;
     background-color: var(--bg-project-box-hover);
 }
 
