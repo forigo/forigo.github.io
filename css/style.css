@@ -34,7 +34,7 @@
     --color-contact: #FFFFFF;
     --color-contact-hover: #FFFFFF;
     --color-contact-border: #FFFFFF;
-    --bg-contact-hover: linear-gradient(90deg, #BF63C7 0%, #FFC01D 100%);
+    --bg-contact-hover: #BF63C7;
     --bs-color-contact: #bf63c7af;
     /* Home Page */
     --bg-main-image: url("/img/logo.png");
@@ -193,7 +193,7 @@
     --light-color-contact: #49006a;
     --light-color-contact-hover: #FFFFFF;
     --light-color-contact-border: #49006a;
-    --light-bg-contact-hover: linear-gradient(268.89deg, #49006a -3.36%, #dd3497 89.89%);
+    --light-bg-contact-hover: #dd3497;
     --light-bg-main-image: url("/img/light_logo.png");
     --light-bg-main-h1: linear-gradient(268.89deg, #49006a -3.36%, #dd3497 89.89%);
     --light-color-main-p: #49006a;
