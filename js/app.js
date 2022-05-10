@@ -1,6 +1,6 @@
 var app = angular.module("App", ["ngRoute"]);
 
-app.config(function($routeProvider, $locationProvider, $httpProvider){
+app.config(function($routeProvider){
     $routeProvider
     .when('/', {
         templateUrl: 'https://forigo.github.io/templates/home.html'
@@ -34,5 +34,4 @@ app.config(function($routeProvider, $locationProvider, $httpProvider){
     });
     .otherwise({redirectTo : '404'});
     
-    $locationProvider.html5Mode(true);
 });
