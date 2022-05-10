@@ -12,14 +12,14 @@ app.config(function($routeProvider, $locationProvider){
     .when('/projetos', {
         templateUrl: 'templates/projetos.html'
     })
-    .when('/projetos/gustavolimaadvocacia', {
-        templateUrl: 'templates/projetos/gustavolimaadvocacia.html'
+    .when('/gustavolimaadvocacia', {
+        templateUrl: 'templates/gustavolimaadvocacia.html'
     })
-    .when('/projetos/sgnirts', {
-        templateUrl: 'templates/projetos/sgnirts.html'
+    .when('/sgnirts', {
+        templateUrl: 'templates/sgnirts.html'
     })
-    .when('/projetos/rocketseat', {
-        templateUrl: 'templates/projetos/rocketseat.html'
+    .when('/rocketseat', {
+        templateUrl: 'templates/rocketseat.html'
     })
     .when('/certificados', {
         templateUrl: 'templates/certificados.html'
