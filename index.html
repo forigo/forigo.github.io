@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ccc21e8b90.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+        <!-- Angular lib-->
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+        <script src="/js/app.js"></script>
+
+        <!-- jQuery library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--Nicescroll script-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.5.1/jquery.nicescroll.min.js"></script>
+
+    </head>
+
+    <body onload="translate('br', 'lng-tag')" ng-app="App">
+
+            <div class="superior-section">
+                <div class="themes-button">
+                    <input type="checkbox" id="toggle" name="theme">
+                    <label for="toggle" class="button"></label>
+                </div>
+                
+                <div class="flags">
+                    <a id="brTranslator" href="javascript:void(0);"><img src="/img/brazil.png" alt="bandeira do Brasil" title="Português"></a>
+                    <a id="enTranslator" href="javascript:void(0);"><img src="/img/usa.png" alt="bandeira dos Estados Unidos" title="Inglês"></a>
+                </div>
+            </div>
+
+            <div ng-view></div>
+            <script src="/js/translate.js"></script>
+            <script src="/js/index.js"></script>
+            <script src="/js/themes.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "inicio":"home",
+    "sobre":"about me",
+    "projetos":"projects",
+    "contato":"contact",
+    "ola_meu_nome_e_felipe_forigo_do_carmo":"Hi, my name is Felipe Forigo do Carmo",
+    "bacharel_em_sistemas_de_informacao_e_estudando_desenvolvimento_web_na_rocketseat":"Graduate in Information System and studying web development at <a style=\"color: #9d5ecd; text-decoration: dotted;\" href=\"#\">Rocketseat.</a>",
+    "mais":"More",
+    "certificados":"Certificates",
+    "sobre_mim":".About me",
+    "estudando":".I'm studying",
+    "idiomas":".Languages",
+    "ingles":"<span>&#10020;</span>English (Intermediate > advanced)",
+    "portugues":"<span>&#10020;</span>Portuguese (Fluent/Native)",
+    "terminal_text":"<p>MacBook-Pro-de-Felipe:~<span style=\"color: #BF63C7;\">felipeforigo$</span><span style=\"color: #FFFFFF;\">&nbsp;Hi, my name is Felipe Forigo do Carmo, however my friends used to call me Forigo or Fori, so feel free to call me <abbr style=\"text-decoration: dotted;\" title=\"you can call me sgnirts too\">as you want. ;D</abbr></span></p><br><p>I'm graduate in Information System at Isulpar - Instituto Superior do Litoral Paraná, however nowdays I'm working as Port Coordinator in a maritime agency.</p><br><p>In order to improve my knowledge and proceed with my career migration to web development area, I've commenced on <span style=\"color: #00598d;\">Explorer</span> program at <a style=\"color: #6b1cff; font-weight: bold;\" href=\"#\">Rocketseat</a>.</p><br><p><a style=\"text-decoration: dotted; color: #FFFFFF;\" href=\"#\" target=\"_blank\">&lt;Work Experience&gt;</a></p><br><p>MacBook-Pro-de-Felipe:~ <span style=\"color: #BF63C7;\">felipeforigo$</spam><span class=\"blink_me\">&#10074;</span></p>"
+}

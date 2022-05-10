@@ -1,0 +1,101 @@
+<head>
+    <title>.sgnirts :: contato</title>
+</head>
+
+<!--Desktop Header -->
+<header class="header">
+
+    <p class="logo-header">.sgnirts</p>
+
+    <nav class="menu">
+        <a href="#/" lng-tag="inicio">inicio</a>
+        <a href="#sobre" lng-tag="sobre">sobre</a>
+        <a href="#projetos" lng-tag="projetos">projetos</a>
+    </nav>
+
+    <p><a class="contact contact-actived" style="cursor: unset;" href="#contato" lng-tag="contato">contato</p></a>
+
+</header> 
+<!---->
+
+<!--Mobile Header -->
+<header class="header-mobile">
+
+    <p class="logo-header-mobile">.sgnirts</p>
+
+    <p><a class="contact-mobile contact-actived" href="#contato" lng-tag="contato">contato</a></p>
+
+</header> 
+
+<nav class="menu-mobile">
+    <a href="#/" lng-tag="inicio">inicio</a>
+    <a href="#sobre" lng-tag="sobre">sobre</a>
+    <a href="#projetos" lng-tag="projetos">projetos</a>
+</nav>
+<!---->
+
+<main>
+
+    <section class="main-position-contact">
+
+        <div class="main-text-contact">
+
+            <h1>Oba, que bom ver você por aqui!</h1>
+            <p>Em que posso te ajudar? Você pode criar sua mensagem logo abaixo, ou se preferir, entrar em contato por whatsapp ou e-mail.</p>
+        </div>
+
+        <form id="contact-me" action="https://formsubmit.co/felipe_forigo@hotmail.com" method="POST">
+            
+            <fieldset>
+                <div class="fieldset-wrapper">
+
+                    <div class="input-wrapper">
+                        <label for="name">Nome completo</label>
+                        <input type="text" id="name" name="name" required/>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required/>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" required/>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/#/obrigado">
+                </div>
+            </fieldset>
+        </form>
+        
+        <div class="submit-section">
+            <div class="button-submit-section">
+                <button form="contact-me" class="button-contact-me" type="submit">Enviar</button>
+            </div>
+            <div class="wpp-email-section">
+                <span data-tooltip="+55 41 99862-6372"><a href="https://api.whatsapp.com/send?phone=5541998626372" target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a></span>
+                <span data-tooltip="felipe_forigo@hotmail.com"><a href="mailto:felipe_forigo@hotmail.com"><i class="fa-solid fa-at"></i></a></span>
+            </div>
+        </div>
+        
+        <div class="social-media-new">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-solid fa-rocket"></i></a>
+        </div>
+
+    </section>
+    
+    <section class="footer">
+       <img src="/img/fori_footer_.png" id="footer-img" alt="minha foto de braços cruzados">
+    </section>
+
+</main>
