@@ -3,15 +3,15 @@ $(document).ready(function () {
 });
 
 function gustavolima() {
-    window.location.href = "projetos/gustavolimaadvocacia";
+    window.location.href = "gustavolimaadvocacia";
 }
 
 function sgnirts() {
-    window.location.href = "projetos/sgnirts";
+    window.location.href = "sgnirts";
 }
 
 function rocketseat_portfolio() {
-    window.location.href = "projetos/rocketseat";
+    window.location.href = "rocketseat";
 }
 
 
