@@ -2,7 +2,7 @@ var app = angular.module("App", ["ngRoute"]);
 
 app.config(function($routeProvider){
     $routeProvider
-    .when(' ', {
+    .when('/', {
         templateUrl: 'templates/home.html'
     });
     .when('/sobre', {
@@ -32,7 +32,6 @@ app.config(function($routeProvider){
     .when('/404', {
         templateUrl: 'templates/404.html'
     });
-
     .otherwise({redirectTo : '404'});
-
+    $locationProvider.html5Mode(true);
 });
