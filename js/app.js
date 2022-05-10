@@ -3,7 +3,7 @@ var app = angular.module("App", ["ngRoute"]);
 app.config(function($routeProvider){
     $routeProvider
     .when("https://forigo.github.io/", {
-        templateUrl: "https://forigo.github.io/templates/home.html"
+        templateUrl: "/templates/home.html"
     })
     .when("https://forigo.github.io/sobre", {
         templateUrl: "https://forigo.github.io/templates/sobre.html"
