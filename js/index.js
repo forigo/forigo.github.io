@@ -2,19 +2,6 @@ $(document).ready(function () {
     $("body").niceScroll({ background: '#333231', scrollspeed: 0, cursorborder: '0', cursorcolor: '#BF63C7', cursorwidth: '10px', autohidemode: false, zindex: 'auto' });
 });
 
-function gustavolima() {
-    window.location.href = "https://forigo.github.io/gustavolimaadvocacia";
-}
-
-function sgnirts() {
-    window.location.href = "https://forigo.github.io/sgnirts";
-}
-
-function rocketseat_portfolio() {
-    window.location.href = "https://forigo.github.io/rocketseat";
-}
-
-
     //This function will be called when user click changing language
     function translate(lng, tagAttr){
       var translate = new Translate();
