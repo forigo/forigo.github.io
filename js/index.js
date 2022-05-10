@@ -3,15 +3,15 @@ $(document).ready(function () {
 });
 
 function gustavolima() {
-    window.location.href = "/gustavolimaadvocacia";
+    window.location.href = "https://forigo.github.io/gustavolimaadvocacia";
 }
 
 function sgnirts() {
-    window.location.href = "/sgnirts";
+    window.location.href = "https://forigo.github.io/sgnirts";
 }
 
 function rocketseat_portfolio() {
-    window.location.href = "/rocketseat";
+    window.location.href = "https://forigo.github.io/rocketseat";
 }
 
 
