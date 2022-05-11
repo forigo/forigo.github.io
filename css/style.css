@@ -1500,7 +1500,7 @@ fieldset {
     margin-right: auto;
 }
 
-.fa-github, .fa-linkedin-in, .fa-instagram, .fa-twitter, .fa-rocket {
+.fa-github, .fa-linkedin-in, .fa-instagram, .fa-twitter, .fa-discord {
     font-size: 32px;
     color:var(--color-social-media);
     transition: 1s;
@@ -1526,7 +1526,7 @@ fieldset {
     text-shadow: 0em 0em 0.5em var(--ts-social-media);
 }
 
-.fa-rocket:hover {
+.fa-discord:hover {
     color:var(--color-social-media-hover);
     text-shadow: 0em 0em 0.5em var(--ts-social-media);
 }
