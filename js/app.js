@@ -18,8 +18,8 @@ app.config(function($routeProvider, $locationProvider){
     .when('/sgnirts', {
         templateUrl: 'templates/sgnirts.html'
     })
-    .when('/rocketseat', {
-        templateUrl: 'templates/rocketseat.html'
+    .when('/explorer', {
+        templateUrl: 'templates/explorer.html'
     })
     .when('/certificados', {
         templateUrl: 'templates/certificados.html'
