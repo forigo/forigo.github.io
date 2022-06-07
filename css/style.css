@@ -1820,7 +1820,8 @@ fieldset {
         margin-bottom: 40px;
         width: 300px;
         align-items: center;
-        gap: 10px;
+        gap: 50px;
+        flex-direction: column;
     }
 
     .button-more-portfolio-back {
