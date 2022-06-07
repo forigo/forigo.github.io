@@ -21,6 +21,9 @@ app.config(function($routeProvider, $locationProvider){
     .when('/explorer', {
         templateUrl: 'templates/explorer.html'
     })
+    .when('/nlwreturn', {
+        templateUrl: 'templates/nlwreturn.html'
+    })
     .when('/certificados', {
         templateUrl: 'templates/certificados.html'
     })
