@@ -772,7 +772,7 @@ main {
     justify-content: flex-start;
     background-color: var(--bg-project-box);
     width: 380px;
-    height: 100px;
+    height: auto;
     border-radius: 20px;
     margin-bottom: 30px;
     border: 1px solid transparent;
