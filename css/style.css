@@ -798,6 +798,7 @@ main {
 
 .project-box-text {
     width: 80%;
+    padding-bottom: 13px;
 }
 
 .project-box-text h1 {
