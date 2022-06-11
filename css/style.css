@@ -801,6 +801,11 @@ main {
     padding-bottom: 13px;
 }
 
+.project-box-text span {
+    display: flex;
+    justify-content: center;
+}
+
 .project-box-text h1 {
     font-family: var(--ff-project-box-text-h1);
     font-weight: 700;
