@@ -24,6 +24,9 @@ app.config(function($routeProvider, $locationProvider){
     .when('/nlwreturn', {
         templateUrl: 'templates/nlwreturn.html'
     })
+    .when('/maratona-explorer', {
+        templateUrl: 'templates/maratona-explorer.html'
+    })
     .when('/certificados', {
         templateUrl: 'templates/certificados.html'
     })
